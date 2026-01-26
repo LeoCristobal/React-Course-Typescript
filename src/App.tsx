@@ -1,12 +1,12 @@
-import Button from "./Components/Button";
+import Information from "./Components/Information";
 
 const App = () => {
     return (
         <div>
-            <Button
-                label="Click"
-                onClick={() => console.log("clicked")}
-                disabled={false}
+            <Information
+                name="Leo"
+                age={15}
+                isStudent={true}
             />
         </div>
     );
