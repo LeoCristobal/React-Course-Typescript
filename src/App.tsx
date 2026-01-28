@@ -1,4 +1,4 @@
-import UserInfo from "./Components/UserInfo";
+import Todo from "./Components/Todo";
 
 const App = () => {
 
@@ -6,7 +6,7 @@ const App = () => {
     return (
         <>
             <div>
-                <UserInfo />
+                <Todo />
             </div>
         </>
     );
