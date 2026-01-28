@@ -1,14 +1,14 @@
-import Information from "./Components/Information";
+import UserInfo from "./Components/UserInfo";
 
 const App = () => {
+
+
     return (
-        <div>
-            <Information
-                name="Leo"
-                age={15}
-                isStudent={true}
-            />
-        </div>
+        <>
+            <div>
+                <UserInfo />
+            </div>
+        </>
     );
 };
 
