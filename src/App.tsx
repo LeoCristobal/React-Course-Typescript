@@ -1,9 +1,9 @@
-import Counter from "./Components/Counter";
+import Api from "./Components/Api";
 
 const App = () => {
     return (
         <>
-            <Counter />
+            <Api />
         </>
     );
 };
