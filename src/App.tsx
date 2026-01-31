@@ -1,10 +1,10 @@
-import Api from "./Components/Api";
+import FormComponent from "./components/FormComponent";
 
 const App = () => {
     return (
-        <>
-            <Api />
-        </>
+        <div>
+            <FormComponent />
+        </div>
     );
 };
 
