@@ -1,9 +1,9 @@
-import Form from "./components/Form";
+import Count from "./components/Count";
 
 const App = () => {
     return (
         <div>
-            <Form />
+            <Count />
         </div>
     );
 };
